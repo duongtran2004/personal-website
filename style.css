@@ -1,0 +1,167 @@
+/* Homepage (index.html) */
+/* Whole page styling */
+.outer-container {
+  background-color: #5950e1;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.inner-container {
+  display: flex;
+  width: 80%;
+}
+/* Side bar styling */
+.side-bar {
+  color: white;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-right: 0%;
+}
+.avatar {
+  /* round the avatar image */
+  border-radius: 50%;
+  width: 60%;
+}
+.icons {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.fab {
+  font-size: x-large;
+}
+.nav-menu {
+  gap: 10%;
+}
+.job-description {
+  margin-top: 0%;
+  position: relative;
+  bottom: 15px;
+}
+/* make the links' color stay the same after visited */
+a:link,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:active,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+}
+/* Main content styling */
+.main-form {
+  background-color: white;
+  flex: 1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form-tittle {
+  color: palevioletred;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-content {
+}
+.row {
+  display: flex;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+input {
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+  padding-bottom: 10%;
+}
+button {
+  background-color: #5950e1;
+  border-radius: 5px;
+  padding: 8px;
+  border: none;
+  color: white;
+}
+
+.left-padding {
+  padding-left: 10%;
+}
+.right-padding {
+  padding-right: 10%;
+}
+.message-box {
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* About me page */
+
+#main-content-about-me {
+  margin: 5%;
+}
+/* About me's header */
+#about-me-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+#download-resume-button {
+  margin: 10%;
+}
+/* Skills bars */
+/* Styling individual skill blocks */
+/* Container for skill bars */
+.skill-block {
+  padding-bottom: 20%;
+  width: 100%;
+}
+.container {
+  width: 100%;
+  background-color: #d8e5e0;
+  height: 0.5vh;
+}
+.skill-name {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5%;
+}
+.skill-percentage {
+  color: gray;
+}
+.skills {
+  text-align: right; /* Right-align text */
+
+  background-color: #e57392;
+  height: 0.5vh;
+}
+
+.html {
+  width: 90%;
+}
+.css {
+  width: 80%;
+}
+.js {
+  width: 65%;
+}
+.sql {
+  width: 60%;
+}
+/* Use CSS Grid too display 2x2 format for skill blocks */
+.skill-set {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row: auto auto;
+  grid-column-gap: 5%;
+}

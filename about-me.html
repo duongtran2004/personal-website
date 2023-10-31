@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Duong Tran'sPersonal Site</title>
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- FontAwesome CSS library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!--  favicon -->
+    <link rel="shortcut icon" href="assets/avatar.jpg" type="image/x-icon" />
+  </head>
+  <!-- Issues:  -->
+  <!-- About me tittle va download Resume button chưa thẳng hàng? Làm sao để chỉnh thẳng hàng một cách tự động mà ko phải chỉnh chay bằng tay ạ? (em đang dùng position relative) -->
+  <body>
+    <div class="outer-container">
+      <!-- outer-container to flex side-bar and main-form -->
+
+      <div class="inner-container">
+        <!-- inner-container to adjust the relative display proportion of main-form -->
+
+        <!-- Side-bar -->
+        <!-- Different options lead to different page -->
+        <div class="side-bar">
+          <!-- avatar img -->
+          <img class="avatar" src="assets/avatar.jpg" alt="avatar" />
+          <h1>Duong Tran</h1>
+          <p class="job-description">MindX Student</p>
+
+          <!-- social media icon with links -->
+          <div class="icons">
+            <a target="_blank" href="https://www.facebook.com/duongsiphong">
+              <i class="fab fa-facebook"></i
+            ></a>
+            <a target="_blank" href="https://github.com/duongtran2004">
+              <i class="fab fa-github"></i
+            ></a>
+            <a target="_blank" href=""> <i class="fab fa-twitter"></i></a>
+            <a target="_blank" href=""> <i class="fab fa-linkedin"></i></a>
+            <a target="_blank" href=""> <i class="fab fa-google-plus"></i></a>
+          </div>
+          <br />
+          <div class="nav-menu">
+            <a href="about-me.html"> <p>ABOUT ME</p></a>
+
+            <p>EXPERIENCE</p>
+            <p>EDUCATION</p>
+            <p>WORKS</p>
+            <a href="index.html"> <p>CONTACT</p></a>
+          </div>
+
+          <br /><br />
+          <p>@Copyright 2023 DuongTran</p>
+        </div>
+
+        <div class="main-form">
+          <div class="form-content" id="main-content-about-me">
+            <!-- About me's header -->
+            <header>
+              <!-- Tiitle -->
+              <!-- <div style="display: flex; justify-content: space-between"> -->
+              <div id="about-me-header">
+                <h3 class="form-tittle" id="about-me-tittle">ABOUT ME</h3>
+                <!-- Download Resume button -->
+                <div
+                  style="
+                    display: flex;
+                    justify-items: center;
+                    text-wrap: nowrap;
+                  "
+                >
+                  <button id="download-resume-button">
+                    <i class="fa fa-download"></i> Download Resume
+                  </button>
+                </div>
+              </div>
+            </header>
+
+            <br />
+            <!-- Biography Paragprah -->
+            <p>
+              Hello, my name is Duong Tran. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est laborum.
+            </p>
+            <br />
+            <!-- Personal Info  -->
+            <p>
+              <span><b>Birthday: </b>April 10, 2004</span> <br /><br />
+              <span><b>Location: </b>District 7, Ho Chi Minh City</span
+              ><br /><br />
+              <span><b>Email: </b>duongvietnam2004@gmail.com</span><br /><br />
+              <span><b>Phone: </b>(+84)0903479176</span><br />
+              <br />
+            </p>
+            <br /><br />
+            <!-- Skill  set -->
+            <!-- Apply CSS Grid -->
+            <div class="skill-set">
+              <div class="skill-block">
+                <div class="skill-name">
+                  <span>HTML</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="container">
+                  <div class="skills html"></div>
+                </div>
+              </div>
+
+              <div class="skill-block">
+                <div class="skill-name">
+                  <span>CSS</span>
+                  <span class="skill-percentage">80%</span>
+                </div>
+                <div class="container">
+                  <div class="skills css"></div>
+                </div>
+              </div>
+
+              <div class="skill-block">
+                <div class="skill-name">
+                  <span>Javascript</span>
+                  <span class="skill-percentage">65%</span>
+                </div>
+                <div class="container">
+                  <div class="skills js"></div>
+                </div>
+              </div>
+
+              <div class="skill-block">
+                <div class="skill-name">
+                  <span>SQL</span>
+                  <span class="skill-percentage">60%</span>
+                </div>
+                <div class="container">
+                  <div class="skills sql"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 
+            llolo -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

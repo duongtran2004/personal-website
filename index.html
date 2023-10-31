@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Duong Tran's Personal Site</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- font-awesome CSS library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!--  favicon -->
+    <link rel="shortcut icon" href="assets/avatar.jpg" type="image/x-icon" />
+  </head>
+
+  <body>
+    <div class="outer-container">
+      <!-- outer-container to flex side-bar and main-form -->
+
+      <div class="inner-container">
+        <!-- inner-container to adjust the relative display proportion of main-form -->
+
+        <!-- Side-bar -->
+        <!-- Different options lead to different page -->
+        <div class="side-bar">
+          <!-- avatar img -->
+          <img class="avatar" src="assets/avatar.jpg" alt="avatar" />
+          <h1>Duong Tran</h1>
+          <p class="job-description">MindX Student</p>
+
+          <!-- social media icon with links -->
+          <div class="icons">
+            <a target="_blank" href="https://www.facebook.com/duongsiphong">
+              <i class="fab fa-facebook"></i
+            ></a>
+            <a target="_blank" href="https://github.com/duongtran2004">
+              <i class="fab fa-github"></i
+            ></a>
+            <a target="_blank" href=""> <i class="fab fa-twitter"></i></a>
+            <a target="_blank" href=""> <i class="fab fa-linkedin"></i></a>
+            <a target="_blank" href=""> <i class="fab fa-google-plus"></i></a>
+          </div>
+          <br />
+          <div class="nav-menu">
+            <a href="about-me.html"><p>ABOUT ME</p></a>
+
+            <p>EXPERIENCE</p>
+            <p>EDUCATION</p>
+            <p>WORKS</p>
+            <a href="index.html"> <p>CONTACT</p></a>
+          </div>
+
+          <br /><br />
+          <p>@Copyright 2023 DuongTran</p>
+        </div>
+        <!-- FORM -->
+
+        <div class="main-form">
+          <div class="form-content">
+            <h3 class="form-tittle left-padding">GET IN TOUCH</h3>
+            <br />
+            <form action="" method="post">
+              <div class="row" style="gap: 30px">
+                <div class="field left-padding">
+                  <!-- <label for="name">Your Name</label> -->
+                  <input
+                    type="text"
+                    placeholder="Your Name"
+                    name="name"
+                    id="name"
+                  />
+                </div>
+
+                <div class="field right-padding">
+                  <!-- <label for="email">Your Email</label> -->
+                  <input
+                    type="email"
+                    placeholder="Your Email"
+                    name="email"
+                    id="email"
+                  />
+                </div>
+              </div>
+
+              <div class="row" style="gap: 30px">
+                <div class="field left-padding">
+                  <!-- <label for="phone">Phone (optional)</label> -->
+                  <input
+                    type="tel"
+                    placeholder="Phone (optional)"
+                    name="phone"
+                    id="phone"
+                  />
+                </div>
+
+                <div class="field right-padding">
+                  <!-- <label for="subject">Subject</label> -->
+                  <input
+                    type="text"
+                    placeholder="Subject"
+                    name="subject"
+                    id="subject"
+                  />
+                </div>
+              </div>
+              <div class="left-padding right-padding">
+                <!-- <label for="message">Message</label> -->
+                <br />
+                <textarea
+                  class="message-box"
+                  style="width: 100%"
+                  name="message"
+                  id="message"
+                  placeholder="Message"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+              <br />
+              <div class="left-padding right-padding">
+                <button>Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
